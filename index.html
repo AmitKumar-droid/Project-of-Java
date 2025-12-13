@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Novell Services Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-box">
+    <h3>Novell Services Login</h3>
+
+    <form>
+
+        <div class="row">
+            <label>Username:</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Password:</label>
+            <input type="password">
+        </div>
+
+        <div class="row">
+            <label>City of<br>Employment:</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Web server:</label>
+            <select>
+                <option>— Choose a server —</option>
+            </select>
+        </div>
+
+        <div class="section">
+            <label class="section-label">Please specify<br>your role:</label>
+            <div class="options">
+                <input type="radio" name="role"> Admin<br>
+                <input type="radio" name="role"> Engineer<br>
+                <input type="radio" name="role"> Manager<br>
+                <input type="radio" name="role"> Guest
+            </div>
+        </div>
+
+        <div class="section">
+            <label class="section-label">Single Sign-on<br>to the following:</label>
+            <div class="options">
+                <input type="checkbox"> Mail<br>
+                <input type="checkbox"> Payroll<br>
+                <input type="checkbox"> Self-service
+            </div>
+        </div>
+
+        <div class="buttons">
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
