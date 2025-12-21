@@ -1,3 +1,4 @@
+package Array;
 //Wap to find the even index of the given array
 class evenIndex{
     public static void main(String[] args){

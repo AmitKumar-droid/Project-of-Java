@@ -1,3 +1,4 @@
+package Array;
 public class AverageExample {
 
     public static double average(int[] a) {

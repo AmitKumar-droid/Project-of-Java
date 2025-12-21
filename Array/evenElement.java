@@ -1,3 +1,4 @@
+package Array;
 public class evenElement {
     public static void main(String[] args) {
         int a[]={11,21,30,40,50};

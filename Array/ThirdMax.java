@@ -1,3 +1,4 @@
+package Array;
 public class ThirdMax {
 
     public static int thirdMax(int[] a) {

@@ -1,3 +1,4 @@
+package Array;
 public class SecondMax {
 
     public static int second(int a[]) {
